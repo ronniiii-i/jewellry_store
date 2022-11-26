@@ -8,8 +8,12 @@
         min-height: 40vh;
         background-size: initial;
     }
+    #hero{
+        background-size: 120%;
+        background-position: center
+    }
     #more{
-        background-size: 200%;
+        background-size: 150%;
         background-position: center
     }
 }

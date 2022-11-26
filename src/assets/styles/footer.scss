@@ -37,7 +37,7 @@ footer {
     .site p {
       font-size: 15px;
       padding: 1vw 0vw;
-      font-weight: 600;
+      font-weight: 500;
       letter-spacing: normal;
     }
     .contact {
@@ -60,10 +60,27 @@ footer {
         align-items: center;
         border: 1px solid black;
         margin: 1vw 0vw;
-        .fa-envelope {
-          color: black;
-          padding: 0vw 0vw 0vw 0.5vw;
-          width: 10%;
+        flex-shrink: 0;
+        svg {
+          &:first-child {
+            color: black;
+            padding-left: 0.3rem;
+            width: 30px;
+          }
+          &:last-child {
+            background-color: black;
+            color: white;
+            height: inherit;
+            padding: 5px;
+            width: 31px;
+            text-align: center;
+            cursor: pointer;
+            transition: all .3s;
+            &:hover {
+              background-color: white;
+              color: black;
+            }
+          }
         }
         input {
           border: none;
@@ -71,18 +88,8 @@ footer {
           margin: 0vw 0vw 0vw 0vw;
           width: 80%;
           background-color: transparent;
-        }
-        i.fa-chevron-right {
-          background-color: black;
-          color: white;
-          padding: 5px;
-          width: 10%;
-          text-align: center;
-          cursor: pointer;
-        }
-        i.fa-chevron-right:hover {
-          background-color: white;
-          color: black;
+          font-family: $serif;
+          font-size: 1.1rem;
         }
       }
     }
