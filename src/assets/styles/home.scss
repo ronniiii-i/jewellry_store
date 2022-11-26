@@ -8,13 +8,13 @@
         min-height: 40vh;
         background-size: initial;
     }
-    #hero{
-        background-size: 120%;
-        background-position: center
-    }
+    // #hero{
+    //     background-size: 150%;
+    //     background-position: center;
+    // }
     #more{
-        background-size: 150%;
-        background-position: center
+        background-size: 200%;
+        background-position: center 80%;
     }
 }
 @media screen and (max-width: 900px) {
