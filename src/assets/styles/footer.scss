@@ -1,0 +1,137 @@
+footer {
+  width: 100%;
+  background-color: $main;
+  .top {
+    // display: flex;
+    padding: 1vw;
+    // justify-content: space-between;
+    align-items: flex-start;
+    .column {
+      width: 25%;
+      min-width: 200px;
+      flex-shrink: 0;
+      padding: 1vw;
+      font-family: $serif;
+      h1 {
+        font-family: Architects Daughter;
+        font-size: 23px;
+        letter-spacing: -2px;
+        padding: 0.5vw;
+      }
+      p {
+        letter-spacing: -1px;
+        font-size: 15px;
+      }
+      a {
+        letter-spacing: -1px;
+        // font-size: 15px;
+        font-family: $serif;
+      }
+    }
+    .customer ul li {
+      padding: 0.3vw 0.5vw;
+      a {
+        letter-spacing: -1px;
+      }
+    }
+    .site p {
+      font-size: 15px;
+      padding: 1vw 0vw;
+      font-weight: 600;
+      letter-spacing: normal;
+    }
+    .contact {
+      p,
+      a {
+        padding: 0.3vw 0.5vw;
+      }
+      .email {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    .sign {
+      p {
+        padding: 0.5vw 0;
+      }
+      .input {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        border: 1px solid black;
+        margin: 1vw 0vw;
+        .fa-envelope {
+          color: black;
+          padding: 0vw 0vw 0vw 0.5vw;
+          width: 10%;
+        }
+        input {
+          border: none;
+          padding: 0vw 0.5vw;
+          margin: 0vw 0vw 0vw 0vw;
+          width: 80%;
+          background-color: transparent;
+        }
+        i.fa-chevron-right {
+          background-color: black;
+          color: white;
+          padding: 5px;
+          width: 10%;
+          text-align: center;
+          cursor: pointer;
+        }
+        i.fa-chevron-right:hover {
+          background-color: white;
+          color: black;
+        }
+      }
+    }
+  }
+  .logo {
+    padding: 1vw 2vw 0vw;
+    img {
+      width: 100%;
+      max-width: 200px;
+    }
+  }
+  .bottom {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .socials {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    * {
+      padding: 0.5vw;
+      font-size: 12px;
+      letter-spacing: -1px;
+    }
+    .icons i {
+      font-size: 18px;
+      font-weight: 700;
+      &.fa-instagram:hover {
+        color: #bc2a8d;
+      }
+      &.fa-pinterest:hover {
+        color: #bd081c;
+      }
+      &.fa-twitter:hover {
+        color: #1da1f2;
+      }
+    }
+  }
+}
+// @media screen and (max-width: 860px) {
+//   footer .top {
+//     flex-direction: column;
+//   }
+//   footer .top .column {
+//     width: 100%;
+//     padding: 1vw;
+//   }
+//   footer .top .sign .input {
+//     width: 60%;
+//   }
+// }

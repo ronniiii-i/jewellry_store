@@ -1,0 +1,30 @@
+@import '../../components/Home/styles/hero';
+@import '../../components/Home/styles/categories';
+@import '../../components/Home/styles/more';
+
+@media screen and (min-height: 800px) {
+    #hero,
+    #more{
+        min-height: 40vh;
+        background-size: initial;
+    }
+    #more{
+        background-size: 200%;
+        background-position: center
+    }
+}
+@media screen and (max-width: 900px) {
+    #hero .text,
+    #more .text{
+        width: 50%;
+    }
+    /* .bestsellers .cards .name .card{
+        width: 40%;
+    } */
+}
+@media screen and (max-width: 860px) {
+    #hero .text,
+    #more .text{
+        width: 100%;
+    }
+}

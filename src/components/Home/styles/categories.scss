@@ -1,0 +1,38 @@
+#categories {
+  width: 100%;
+  padding: 3vw;
+  background-color: $main;
+  h2 {
+    font-family: "Architects Daughter", cursive;
+    padding-bottom: 20px;
+  }
+  .slider {
+    gap: 25px;
+    overflow-x: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    .card {
+      width: 30%;
+      min-width: 250px;
+      flex-shrink: 0;
+      overflow: hidden;
+      a {
+        width: 100%;
+        &.wrapper {
+            max-height: 370px;
+            overflow: hidden;
+            text-align: center;
+            &:hover{
+                width: 105%;
+            }
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

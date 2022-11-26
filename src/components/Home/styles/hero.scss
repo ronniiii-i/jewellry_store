@@ -1,0 +1,44 @@
+#hero {
+  min-height: 70vh;
+  background: linear-gradient(#0000001c, #0000001c),
+    url("../../../assets/img/2.jpeg") no-repeat fixed;
+  background-position: center top;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 3vw;
+  * {
+    z-index: 0;
+  }
+  .text {
+    width: 45%;
+    padding: 3vw;
+    color: white;
+    text-align: center;
+    h1 {
+      text-transform: uppercase;
+    }
+    p {
+      font-family: "Alegreya", serif;
+    }
+    .but {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      a {
+        font-family: "Architects Daughter", cursive;
+        padding: 1vw 2vw;
+        margin: 1vw 0.5vw;
+        color: white;
+        border: 2px solid white;
+        &:hover {
+          background-color: white;
+          color: #9c8779;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
