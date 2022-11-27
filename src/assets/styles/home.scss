@@ -2,7 +2,7 @@
 @import '../../components/Home/styles/categories';
 @import '../../components/Home/styles/more';
 
-@media screen and (min-height: 500px) {
+@media screen and (min-height: 500px) and (max-width: 500px){
     #hero,
     #more{
         min-height: 40vh;
